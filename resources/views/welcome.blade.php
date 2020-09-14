@@ -52,7 +52,7 @@
                     </div>
                     <div id="word-mark">
                         <h1>
-                            <a href="index.html">Recognize</a>
+                            <a href="{{ url('/') }}">Portfolio</a>
                         </h1>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
                 </div>
                 <div class="banner-info text-uppercase">
                     <h6 data-aos="fade-right">Introduction</h6>
-                    <h5 data-aos="fade-right">Hello, my name is Daniel</h5>
-                    <h3 data-text="I'm a Programmer">I am a Programmer</h3>
+                    <h5 data-aos="fade-right">Hello, my name is Feisal Mombo</h5>
+                    <h3 data-text="Software Developer">Software Developer</h3>
                     <div class="ban-buttons mt-3" data-aos="fade-right">
                         <a class="btn work scroll" href="#projects">My Work</a>
                         <a class="btn work scroll active" href="#contact">Here me</a>
@@ -298,7 +298,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g1.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -309,7 +309,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g2.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -320,7 +320,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g3.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g4.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
                                     </div>
                                 </div>
                             </a>
@@ -343,7 +343,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g5.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -354,7 +354,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g6.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -367,7 +367,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g7.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -378,7 +378,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g8.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
                                     </div>
                                 </div>
                             </a>
@@ -388,7 +388,7 @@
                                 <div class="section_1_gallery_grid1">
                                     <img src="{{ asset('dash/images/g9.jpg') }}" alt=" " class="img-fluid" />
                                     <div class="proj_gallery_grid1_pos">
-                                        <h3>Recognize</h3>
+                                        <h3>Portfolio</h3>
 
                                     </div>
                                 </div>
@@ -540,7 +540,7 @@
                                 </div>
                                 <div class="address-right text-center">
                                     <h6 class="my-3">Address</h6>
-                                    <p> California, USA
+                                    <p> Kawe, Dar es Salaam
 
                                     </p>
                                 </div>
@@ -555,7 +555,7 @@
                                 <div class="address-right text-center">
                                     <h6 class="my-3">Email</h6>
                                     <p>Email :
-                                        <a href="mailto:example@email.com"> mail@example.com</a>
+                                        <a href=""> feisalmombo29@gmail.com</a>
 
                                     </p>
                                 </div>
@@ -569,7 +569,7 @@
                                 </div>
                                 <div class="address-right text-center">
                                     <h6 class="my-3">Phone</h6>
-                                    <p>+1 234 567 8901</p>
+                                    <p>+255 684 456 287</p>
 
                                 </div>
 
@@ -637,7 +637,7 @@
                     <div class="col-lg-4 footer-end-grid mt-md-0 mt-sm-5" data-aos="fade-up">
                         <h2>
                             <a href="index.html">
-                       <i class="fas fa-crosshairs"></i> Recognize
+                       <i class="fas fa-crosshairs"></i> Portfolio
                     </a>
                         </h2>
                     </div>
@@ -645,8 +645,8 @@
                 <hr>
                 <div class="d-flex justify-content-between pt-lg-3  footer-bottom-cpy">
                     <div class="copy-right-w3ls">
-                        <p>© 2018 Recognize. All rights reserved | Design by
-                            <a href="http://w3layouts.com/"> W3layouts </a>
+                        <p>© {{ date('Y') }} Portfolio. All rights reserved | Design by
+                            <a href=""> Feisal Mombo </a>
 
                         </p>
                     </div>
